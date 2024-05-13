@@ -54,7 +54,7 @@ function Carousel() {
 
     );
 };
-const CustomPrevArrow = (props) => {
+const CustomPrevArrow = (props:any) => {
     const { className, style, onClick } = props;
     return (
         <div className={className} style={{ ...style, display: 'block', left: '10px', zIndex: 10, color: 'black' }} onClick={onClick}>
@@ -64,7 +64,7 @@ const CustomPrevArrow = (props) => {
 };
 
 // Custom Next Arrow Component
-const CustomNextArrow = (props) => {
+const CustomNextArrow = (props:any) => {
     const { className, style, onClick } = props;
     return (
         <div className={className} style={{ ...style, display: 'block', right: '10px', zIndex: 10, color: 'black' }} onClick={onClick}>
